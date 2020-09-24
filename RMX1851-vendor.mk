@@ -272,6 +272,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18621/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18621/Hdmi_cal.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18621/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18621/Headset_cal.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18621/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18621/Speaker_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18637/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18637/Bluetooth_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18637/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18637/General_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18637/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18637/Global_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18637/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18637/Handset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18637/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18637/Hdmi_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18637/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18637/Headset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18637/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18637/Speaker_cal.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/realme/RMX1851/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
