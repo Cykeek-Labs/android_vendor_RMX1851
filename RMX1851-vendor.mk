@@ -77,18 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrc.so \
     vendor/realme/RMX1851/proprietary/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrcinterface.so \
     vendor/realme/RMX1851/proprietary/lib64/vendor.oppo.hardware.ktv@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.ktv@1.0.so \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b00 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b01 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b02 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b03 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b04 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b05 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b06 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b07 \
-    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.mdt \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_config.xml \
-    vendor/realme/RMX1851/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/realme/RMX1851/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/realme/RMX1851/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/realme/RMX1851/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
@@ -430,6 +418,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/realme/RMX1851/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/realme/RMX1851/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b00 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b01 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b02 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b03 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b04 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b05 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b06 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b07 \
+    vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.mdt \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_config.xml \
+    vendor/realme/RMX1851/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/realme/RMX1851/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/realme/RMX1851/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/realme/RMX1851/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
