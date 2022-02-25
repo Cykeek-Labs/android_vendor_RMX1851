@@ -26,18 +26,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/firmware/tp/18621/FW_HX_NF83112A_DSJM.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18621/FW_HX_NF83112A_DSJM.img \
     vendor/realme/RMX1851/proprietary/vendor/firmware/tp/18621/FW_HX_NF83112A_DSJM_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18621/FW_HX_NF83112A_DSJM_FAE.img \
     vendor/realme/RMX1851/proprietary/vendor/firmware/tp/18621/FW_HX_NF83112A_DSJM_TEST.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18621/FW_HX_NF83112A_DSJM_TEST.img \
-    vendor/realme/RMX1851/proprietary/odm/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/realme/RMX1851/proprietary/odm/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib/mediadrm/libwvdrmengine.so \
-    vendor/realme/RMX1851/proprietary/odm/lib/oplus_btaudio_offload_if.so:$(TARGET_COPY_OUT_ODM)/lib/oplus_btaudio_offload_if.so \
-    vendor/realme/RMX1851/proprietary/odm/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so \
-    vendor/realme/RMX1851/proprietary/odm/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/libqsee_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libqsee_keybox_ca.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/realme/RMX1851/proprietary/odm/lib64/oplus_btaudio_offload_if.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus_btaudio_offload_if.so \
-    vendor/realme/RMX1851/proprietary/odm/lib64/vendor.oplus.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.bluetooth_audio@1.0.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cryptoeng@1.0.so \
     vendor/realme/RMX1851/proprietary/odm/vendor/firmware/cryptoeng.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b00 \
     vendor/realme/RMX1851/proprietary/odm/vendor/firmware/cryptoeng.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b01 \
@@ -403,7 +397,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/realme/RMX1851/proprietary/vendor/firmware/tfa98xx_18621.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_18621.cnt \
     vendor/realme/RMX1851/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.dsi.ant@1.0.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -414,11 +408,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/audio.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm710.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/sound_trigger.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm710.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
@@ -608,11 +602,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/libthread_blur_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libthread_blur_skel.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib/vendor.oppo.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.bluetooth_audio@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.oppo.hardware.ktv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.ktv@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.oppo.hardware.radio.oppoappradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.radio.oppoappradio@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.oppo.hardware.radio.opporadio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.radio.opporadio@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
@@ -686,7 +680,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.dsi.ant@1.0.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -711,15 +705,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/sensors.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.sdm710.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm710.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
@@ -1045,6 +1039,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.camera.oppoHalAssist@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.camera.oppoHalAssist@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.commondcs@1.0.so \
@@ -1067,7 +1062,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.gnss@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@4.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
@@ -1150,5 +1144,4 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     vendor.qti.gnss@4.0-service \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_oplus_bluetooth_audio
+    manifest_android.hardware.drm@1.3-service.widevine
