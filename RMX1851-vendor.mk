@@ -569,9 +569,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtimutex.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_HD.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/dirac-capiv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac-capiv2.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
-    vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/dirac_resource_game.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource_game.dar \
     vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/libVC1Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVC1Dec.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVC1DecDsp_skel.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/rfsa/adsp/libVDHexagonBlurless_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVDHexagonBlurless_skel.so \
