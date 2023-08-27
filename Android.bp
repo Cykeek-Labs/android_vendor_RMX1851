@@ -176,13 +176,6 @@ dex_import {
 }
 
 dex_import {
-	name: "QtiTelephonyServicelibrary",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "qcrilhook",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
@@ -214,6 +207,13 @@ dex_import {
 	name: "dpmapi",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
