@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/system_ext/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrcinterface.so \
     vendor/realme/RMX1851/proprietary/system_ext/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/RMX1851/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
+    vendor/realme/RMX1851/proprietary/system_ext/lib64/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.seccam@1.0.so \
     vendor/realme/RMX1851/proprietary/system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/realme/RMX1851/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/realme/RMX1851/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
@@ -140,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/realme/RMX1851/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/realme/RMX1851/proprietary/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
-    vendor/realme/RMX1851/proprietary/vendor/bin/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service \
     vendor/realme/RMX1851/proprietary/vendor/bin/hw/vendor.oppo.hardware.ktv@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.ktv@1.0-service \
     vendor/realme/RMX1851/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/realme/RMX1851/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
@@ -204,16 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/realme/RMX1851/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/Charming.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Charming.cng \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/M_Verify_Faster_Common_4.0.0_wp.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Verify_Faster_Common_4.0.0_wp.model \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/arc_golden.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_golden.bin \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl0.rgb32 \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mtStereoParams.bin \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mwStereoParams.bin \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
-    vendor/realme/RMX1851/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/realme/RMX1851/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/realme/RMX1851/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/realme/RMX1851/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -270,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/realme/RMX1851/proprietary/vendor/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-sscrpc-service.rc \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
@@ -358,12 +347,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/realme/RMX1851/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/realme/RMX1851/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
-    vendor/realme/RMX1851/proprietary/odm/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/oppo_camera_config.xml \
     vendor/realme/RMX1851/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX1851/proprietary/odm/lib/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio@1.0.so \
+    vendor/realme/RMX1851/proprietary/vendor/euclid/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_VENDOR)/euclid/odm/lib64/libormshalclient.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
+    vendor/realme/RMX1851/proprietary/vendor/euclid/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/euclid/odm/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/RMX1851/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/firmware/a_fp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b00 \
@@ -622,10 +612,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/android.frameworks.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.fingerprintservice@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.gc2375h.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.gc2375h.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.gc5035.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.hi846.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.hi846.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.imx316.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx316.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx362.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.imx471.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx471.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx519.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx586.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2x5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2x5.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3p9sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3p9sp.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.s5kgw1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5kgw1.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.sp2509v.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.sp2509v.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx519.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.truly_s5k2x5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.truly_s5k2x5.bin \
@@ -708,7 +706,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
@@ -758,21 +755,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libOppoAPSMemMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOppoAPSMemMgr.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libOppoAlgoClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOppoAlgoClient.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libPerfectlyClearCrux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPerfectlyClearCrux.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPolarrRender.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX471RmscLibrary.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libVDBlurlessAPI_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDBlurlessAPI_v2.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libVDDualCameraBlurlessAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDDualCameraBlurlessAPI.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libVDEyeEnhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDEyeEnhance.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libVDPostureDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDPostureDetection.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDSuperPhotoAPI.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
@@ -812,12 +800,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libbokehclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbokehclient.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcamera_core_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_core_hwi.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libcamhidlsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamhidlsensor.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
@@ -838,7 +824,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomprcapture.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvface_api.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libd++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libd++.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
@@ -884,7 +870,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libloadalgo_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadalgo_stub.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libloc_socket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_socket.so \
@@ -911,10 +896,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libocam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libocam_common.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libocam_snapshot_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libocam_snapshot_intf.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/liboppo_aisd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_aisd.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/liboppo_log_print.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_log_print.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/liboppo_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_platform_hwi.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/liboppoalgolib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppoalgolib.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libopposfr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopposfr.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
@@ -936,10 +918,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
@@ -982,11 +967,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsndmonitor.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsnpeml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnpeml.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
@@ -996,17 +983,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libstface_fd_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstface_fd_api.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-cpu.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphonypower.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_image_optical_zoom.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
@@ -1045,7 +1027,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.commondcs@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.oppo.hardware.ktv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.ktv@1.0.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
