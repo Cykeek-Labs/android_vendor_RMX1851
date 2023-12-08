@@ -37,8 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/odm/etc/sensor/config/holi_mxg4300_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_mxg4300_0.json \
     vendor/realme/RMX1851/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/RMX1851/proprietary/odm/firmware/fastchg/18621/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/18621/oplus_vooc_fw.bin \
-    vendor/realme/RMX1851/proprietary/odm/firmware/fastchg/19691/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19691/oplus_vooc_fw.bin \
-    vendor/realme/RMX1851/proprietary/odm/firmware/fastchg/19691/oplus_vooc_fw_n76e.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19691/oplus_vooc_fw_n76e.bin \
     vendor/realme/RMX1851/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/realme/RMX1851/proprietary/odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM.img \
     vendor/realme/RMX1851/proprietary/odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_FAE.img \
