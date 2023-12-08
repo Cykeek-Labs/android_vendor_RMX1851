@@ -41,10 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/odm/firmware/fastchg/19691/oplus_vooc_fw_n76e.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19691/oplus_vooc_fw_n76e.bin \
     vendor/realme/RMX1851/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/realme/RMX1851/proprietary/odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM.img \
+    vendor/realme/RMX1851/proprietary/odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_FAE.img \
     vendor/realme/RMX1851/proprietary/odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_TEST.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_TEST.img \
-    vendor/realme/RMX1851/proprietary/odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM.img \
-    vendor/realme/RMX1851/proprietary/odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_FAE.img \
-    vendor/realme/RMX1851/proprietary/odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_TEST.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_TEST.img \
     vendor/realme/RMX1851/proprietary/odm/lib/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.hal.so \
     vendor/realme/RMX1851/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
     vendor/realme/RMX1851/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
