@@ -447,16 +447,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensor.s5k3p9sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k3p9sp.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensor.s5kgw1.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5kgw1.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensor.sp2509v.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.sp2509v.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.holitech_gc2375h.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.holitech_gc2375h.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.holitech_sp2509v.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.holitech_sp2509v.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.sunny_hi846.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.sunny_imx586.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.trulyi2c20_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.trulyi2c20_imx471.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.holitech_gc2375h.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.holitech_gc2375h.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.holitech_sp2509v.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.holitech_sp2509v.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_hi846.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_imx586.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.truly_imx471.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ofilm_gc5035.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.ofilm_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ofilm_imx519.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.sensormodule.truly_s5k2x5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.truly_s5k2x5.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.ofilm_gc5035.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.ofilm_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.ofilm_imx519.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib/camera/com.qti.tuned.truly_s5k2x5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.truly_s5k2x5.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib/camera/components/com.arcsoft.node.yuvhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.arcsoft.node.yuvhdr.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/camera/components/com.oppo.node.bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oppo.node.bokeh.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/camera/components/com.oppo.node.drawafinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oppo.node.drawafinfo.so \
@@ -870,16 +866,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3p9sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3p9sp.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.s5kgw1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5kgw1.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensor.sp2509v.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.sp2509v.so \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_hi846.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx586.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.holitech_gc2375h.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.holitech_gc2375h.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.holitech_sp2509v.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.holitech_sp2509v.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_hi846.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx586.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_imx471.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx519.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.truly_s5k2x5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.truly_s5k2x5.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ofilm_gc5035.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.ofilm_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ofilm_imx519.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.truly_s5k2x5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_s5k2x5.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/components/com.arcsoft.node.yuvhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.yuvhdr.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/components/com.oppo.node.bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.bokeh.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/components/com.oppo.node.drawafinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.drawafinfo.so \
