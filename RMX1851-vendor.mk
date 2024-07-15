@@ -1381,3 +1381,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     vendor.qti.gnss@4.0-service \
     manifest_android.hardware.drm@1.3-service.widevine
+
+PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64
